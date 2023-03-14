@@ -1,0 +1,16 @@
+table,th,td{
+    border: 2px solid forestgreen;
+}
+th{
+    background-color: orange;
+}
+table{
+    width: 70%;
+    height: 200px;
+}
+th,td{
+    text-align: center;
+}
+.row2{
+    background-color: orange;
+}

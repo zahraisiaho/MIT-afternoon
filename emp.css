@@ -1,0 +1,20 @@
+table{
+    height: 300px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border-bottom: 1px solid deepskyblue;
+}
+th{
+    background-color: cornflowerblue;
+}
+.heading{
+    color: yellow;
+}
+tr:hover{
+    background-color: #6a92c7;
+}
+tr:nth-child(even){
+    background-color: #a05f8e;
+}

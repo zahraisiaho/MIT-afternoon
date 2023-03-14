@@ -1,0 +1,30 @@
+body{
+    background-image: url("images/back.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    padding-top: 200px;
+    padding-right: 1000px;
+    padding-bottom: 50px;
+    padding-left: 700px;
+}
+legend{
+    color: white;
+}
+label{
+    color: white;
+    font-size: 10px;
+}
+input[type=text], input[type=email]{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+}
+input[type=submit]{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+}

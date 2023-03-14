@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    margin-right: 500px;
+    margin-left: 500px;
+    border: 2px solid grey;
+}
+input[type=submit]{
+    background-color: grey;
+    height: 30px;
+}
+sup{
+    color: red;
+}
+label{
+    width: 150px;
+    text-align: left;
+    float: left;
+}
+input{
+    float: left;
+    height: 20px;
+    border-radius: 5px;
+}
+input[type=email]{
+    width: 330px;
+}

@@ -1,0 +1,35 @@
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+form{
+    background-color: lightskyblue;
+    margin-right: 600px;
+    margin-left: 600px;
+    padding: 10px;
+}
+input{
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+input[type=submit]{
+    background-color: greenyellow;
+    height: 30px;
+}
+label{
+    width: 120px;
+    text-align: left;
+    float: left;
+    font-size: 15px;
+}
+input[type=text], input[type=date]{
+    width: 170px;
+    height: 25px;
+    border: 1px solid black;
+}
+select{
+    width: 177px;
+    height: 30px;
+}

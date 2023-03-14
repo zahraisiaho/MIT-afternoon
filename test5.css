@@ -1,0 +1,29 @@
+body{
+    background-color: orange;
+}
+form{
+    background-color: white;
+    padding: 20px;
+    margin-right: 600px;
+    margin-left: 600px;
+    margin-top: 50px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px 5px black;
+}
+input[type=text]{
+    width: 325px;
+    height: 30px;
+}
+input[type=email]{
+    width: 325px;
+    height: 30px;
+}
+input[type=submit]{
+    width: 325px;
+    border-radius: 20px;
+    background-color: orange;
+    height: 40px;
+}
+input[type=submit]:hover{
+    background-color: white;
+}

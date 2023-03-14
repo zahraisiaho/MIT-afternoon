@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="test6.html.css">
+    <script type="text/javascript">
+        function validate(){
+            var name=document.getElementById("name");
+            var email=document.getElementById("email");
+            var int=document.getElementById("int");
+            var date=document.getElementById("date");
+            var act=document.getElementById("act");
+
+            if(name.value==""||email.value==""||int.value==""||date.value==""||act.value==""){
+                alert("No blank spaces allowed");
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+
+
+    </script>
+</head>
+<body>
+<form onsubmit="return validate()" action="introduction.html">
+  <fieldset>
+    <legend>Customer</legend>
+  <label for="name">Name<sup>*</sup></label>
+  <input type="text" id="name"><br><br>
+
+  <label for="email">Email<sup>*</sup></label>
+  <input type="email" id="email"><br><br>
+
+  <label for="int">Investment</label>
+  <input type="text" id="int"><br><br>
+
+  <label for="date">Date Joined<sup>*</sup></label>
+  <input type="date" id="date"><br><br>
+
+  <label for="act">Active</label>
+  <input type="checkbox" id="act">
+    </fieldset>
+  <br>
+  <input type="submit" value="OK">
+    <br>
+</form>
+
+</body>
+</html>

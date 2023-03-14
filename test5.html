@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form validation</title>
+  <link rel="stylesheet" href="test5.css">
+    <script type="text/javascript">
+        function validate(){
+            var name=document.getElementById("name");
+            var sub=document.getElementById("sub");
+            var phone=document.getElementById("phone");
+            var email=document.getElementById("email");
+
+            if(name.value==""||sub.value==""||phone.value==""||email.value==""){
+                 alert("no blank spaces allowed");
+                return false;
+            }
+               else{
+                   return true
+            }
+        }
+
+    </script>
+</head>
+<body>
+<form onsubmit="return validate()" action="Programming.html">
+  <legend style="text-align: center">CONTACT US</legend>
+  <br>
+  <input type="text" id="name" placeholder="Name"><br><br>
+
+  <input type="text" id="sub" placeholder="Subject"><br><br>
+
+  <input type="text" id="phone" placeholder="Phone"><br><br>
+
+  <input type="email" id="email" placeholder="Email"><br><br>
+
+  <textarea name="" id="" cols="45" rows="7" placeholder="Message"></textarea><br><br>
+  <input type="submit" value="SUBMIT">
+  
+</form>
+
+</body>
+</html>

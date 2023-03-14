@@ -1,0 +1,35 @@
+form{
+    background-color: #7a3643;
+    margin-top: 10px;
+    margin-right: 500px;
+    margin-left: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+
+}
+legend{
+    color: white;
+    font-size: 20px;
+}
+label{
+    color: white;
+    font-size: 13px;
+}
+input[type=submit]{
+    color: white;
+    background-color: darkorange;
+    height: 40px;
+    border-radius: 5px;
+}
+input[type=text]{
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+}
+input[type=email]{
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+}
